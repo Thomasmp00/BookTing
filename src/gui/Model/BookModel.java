@@ -12,6 +12,6 @@ public class BookModel {
     public BookModel() throws Exception{
         bookManager = new BookManager();
         booksToBeViewed = FXCollections.observableArrayList();
-        booksToBeViewed.addAll(bookManager.getAllMovies());
+        booksToBeViewed.addAll(bookManager.getAllBooks());
     }
 }
