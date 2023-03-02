@@ -11,4 +11,13 @@ public class MainController {
     public void clickBtn(ActionEvent actionEvent) {
         lbl.setText("Huh?");
     }
+
+    public void handleCreate(ActionEvent actionEvent) {
+    }
+
+    public void handleEdit(ActionEvent actionEvent) {
+    }
+
+    public void handleDelete(ActionEvent actionEvent) {
+    }
 }
