@@ -23,4 +23,69 @@ public class Book {
         this.laestDato=laestDato;
         this.udlaantDate=udlaantDate;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getForfatter() {
+        return forfatter;
+    }
+
+    public void setForfatter(String forfatter) {
+        this.forfatter = forfatter;
+    }
+
+    public String getForlag() {
+        return forlag;
+    }
+
+    public void setForlag(String forlag) {
+        this.forlag = forlag;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
+
+    public int getRating() {
+        return rating;
+    }
+
+    public void setRating(int rating) {
+        this.rating = rating;
+    }
+
+    public Date getLaestDato() {
+        return laestDato;
+    }
+
+    public void setLaestDato(Date laestDato) {
+        this.laestDato = laestDato;
+    }
+
+    public Date getUdlaantDate() {
+        return udlaantDate;
+    }
+
+    public void setUdlaantDate(Date udlaantDate) {
+        this.udlaantDate = udlaantDate;
+    }
+    
 }
